@@ -1,0 +1,104 @@
+/* stylo del Fondo*/
+body {
+  background-image: url("../images/fondo5.jpg");
+  background-size: 100%;
+}
+/* centra el formulario */
+form {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* color para los textos*/
+span {
+  color: red;
+}
+.text {
+  color: white;
+}
+form div p {
+  text-align: center;
+  color: white;
+}
+form label {
+  color: white;
+}
+
+.contain {
+  padding: 50px;
+}
+
+/* stylo de la tabla movie*/
+table {
+  float: right;
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 50px;
+  height: 100px;
+}
+
+.tex {
+  color: white;
+  width: 25%;
+  text-align: left;
+}
+
+/* stylo de la imagen movie*/
+#img1 {
+  margin-top: 50px;
+  margin-left: 180px;
+  float: left;
+  border-radius: 10%;
+  width: 400px;
+  height: 300px;
+}
+
+/*Calificacion estrellas*/
+#form {
+  width: 200px;
+  margin: auto;
+  height: 40px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: white;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+
+
+
+
+
+  
